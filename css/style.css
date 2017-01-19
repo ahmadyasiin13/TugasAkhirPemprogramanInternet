@@ -1,0 +1,69 @@
+ /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  body {
+      position: relative;
+  }
+  ul.nav-pills {
+      top: 20px;
+      position: fixed;
+  }
+  div.col-sm-9 div {
+      height: 250px;
+      font-size: 28px;
+  }
+  #section1 {color: #fff; background-color: #1E88E5;}
+  #section2 {color: #fff; background-color: #673ab7;}
+  #section3 {color: #fff; background-color: #ff9800;}
+  #section41 {color: #fff; background-color: #00bcd4;}
+  #section42 {color: #fff; background-color: #009688;}
+  #section5 {color: #fff; background-color: #1E88E5;}
+  
+  @media screen and (max-width: 810px) {
+    #section1, #section2, #section3, #section41, #section42, #section5  {
+        margin-left: 150px;
+    }
+  }
+/* scroll to top */
+  #scroll { 
+  position: relative; 
+  width: 1000px;
+  margin: 0 auto;
+  bottom: 15px; 
+  right: 0;
+  background: red;
+  padding: 0;
+}
+  
+#scroll a { 
+  float: right;
+  margin: 0 0 0 0; 
+  padding: 0 0 0 0;
+}
+  
+#scroll a img { 
+  float: right;
+  padding: 0 0 0 0;
+  margin: 0;
+}
