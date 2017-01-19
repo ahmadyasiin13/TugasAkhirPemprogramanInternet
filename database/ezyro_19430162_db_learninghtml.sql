@@ -27,8 +27,9 @@ CREATE TABLE `admin` (
 
 /*Data for the table `admin` */
 
-insert into `admin` values 
-('admin','1321995','Ahmad Yasiin','ayassin786@gmail.com','082210901146','admin','N');
+insert into `admin` values 
+
+('admin','admin','Ahmad Yasiin','ayassin786@gmail.com','082210901146','admin','N');
 
 /*Table structure for table `buku_tamu` */
 
@@ -47,12 +48,18 @@ CREATE TABLE `buku_tamu` (
 
 /*Data for the table `buku_tamu` */
 
-insert into `buku_tamu` values 
-(5,'Ahmad Yasiin','Laki-Laki','Hasanudin, Semarang, Kudus','Kudus','ayassin786@gmail.com'),
-(6,'Amalia Setyo Pratiwi','Perempuan','Ds. Purwosari, Kota, Kudus','Kudus','amaliapratiwi26@gmail.com'),
-(7,'Samuel Kurnia Yudha','Laki-Laki','Ds. Blangsak, Kincir, Jepara','Jepara','sakurdha@gmail.com'),
-(9,'Elsafitri Damayanti','Perempuan','Jl. Nakula 1 No 68','Semarang','elsafdama@gmail.com'),
-(10,'Ilham Priyo Wibowo','Laki-Laki','Ds. Hadiwarno Rt.01/Rw/04, Mejobo, Kudus','Kudus','ilhamwibowo1999@gmail.com'),
+insert into `buku_tamu` values 
+
+(5,'Ahmad Yasiin','Laki-Laki','Hasanudin, Semarang, Kudus','Kudus','ayassin786@gmail.com'),
+
+(6,'Amalia Setyo Pratiwi','Perempuan','Ds. Purwosari, Kota, Kudus','Kudus','amaliapratiwi26@gmail.com'),
+
+(7,'Samuel Kurnia Yudha','Laki-Laki','Ds. Blangsak, Kincir, Jepara','Jepara','sakurdha@gmail.com'),
+
+(9,'Elsafitri Damayanti','Perempuan','Jl. Nakula 1 No 68','Semarang','elsafdama@gmail.com'),
+
+(10,'Ilham Priyo Wibowo','Laki-Laki','Ds. Hadiwarno Rt.01/Rw/04, Mejobo, Kudus','Kudus','ilhamwibowo1999@gmail.com'),
+
 (14,'Bondeng','Laki-Laki','Ds. Sujen','Demak','bondeng@gmail.com');
 
 /*Table structure for table `comment` */
@@ -100,9 +107,12 @@ CREATE TABLE `hub_kami` (
 
 /*Data for the table `hub_kami` */
 
-insert into `hub_kami` values 
-(6,'Ilham Priyo Wibowo','ilhampriyo1999@gmail.com','pye? wes move on?'),
-(5,'Elsafitri Damayanti','elsada@gmail.com','Nice! '),
+insert into `hub_kami` values 
+
+(6,'Ilham Priyo Wibowo','ilhampriyo1999@gmail.com','pye? wes move on?'),
+
+(5,'Elsafitri Damayanti','elsada@gmail.com','Nice! '),
+
 (4,'Amalia Setyo Pratiwi','amellala@gmail.com','Bro, ijeh Galau ora ?');
 
 /*Table structure for table `kategori` */
@@ -119,10 +129,14 @@ CREATE TABLE `kategori` (
 
 /*Data for the table `kategori` */
 
-insert into `kategori` values 
-(112,'HTML',2,0),
-(113,'Css',1,0),
-(114,'Php',3,0),
+insert into `kategori` values 
+
+(112,'HTML',2,0),
+
+(113,'Css',1,0),
+
+(114,'Php',3,0),
+
 (111,'JScript',2,0);
 
 /*Table structure for table `mod_ym` */
@@ -138,10 +152,14 @@ CREATE TABLE `mod_ym` (
 
 /*Data for the table `mod_ym` */
 
-insert into `mod_ym` values 
-(1,'yasiin','ahmadyasiin'),
-(2,'amel','mamelcieamel'),
-(3,'candra','candramacan'),
+insert into `mod_ym` values 
+
+(1,'yasiin','ahmadyasiin'),
+
+(2,'amel','mamelcieamel'),
+
+(3,'candra','candramacan'),
+
 (4,'irul','ywww');
 
 /*Table structure for table `posting` */
@@ -174,6 +192,8 @@ CREATE TABLE `upload` (
 
 /*Data for the table `upload` */
 
-insert into `upload` values 
-(1,'Tutorial Php : Simpan, Tambah, Edit, Hapus, dan Cari','Cara membuat aplikasi berbasis web php dan mysql aga bisa melakukan fungsi simpan, edit, hapus, tambah dan cari.','php dan mysql','Tutorial Php  Simpan, Tambah, Edit, Hapus, dan Cari.php','2016-12-07 22:35:31'),
+insert into `upload` values 
+
+(1,'Tutorial Php : Simpan, Tambah, Edit, Hapus, dan Cari','Cara membuat aplikasi berbasis web php dan mysql aga bisa melakukan fungsi simpan, edit, hapus, tambah dan cari.','php dan mysql','Tutorial Php  Simpan, Tambah, Edit, Hapus, dan Cari.php','2016-12-07 22:35:31'),
+
 (2,'Tutorial Php Membuat Pendaftaran Online Sederhana','Tutorial php mysql untuk membuat aplikasi pendaftaran online berbasis web.','php','Tutorial Php Membuat Pendaftaran Online Sederhana.php','2016-12-17 22:38:16');
